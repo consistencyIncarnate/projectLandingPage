@@ -1,1 +1,1 @@
-# projectLandingPage
+This project is about creating a website landing page from scratch for which I was given a mockup. I shall achieve this by using the knowledge I gathered so far in HTML and of course CSS flexbox.
