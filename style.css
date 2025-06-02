@@ -12,7 +12,8 @@ body {
     color: #e5e7eb;
     font-size: 18px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 32px;
 }
 
 .header-hero-left,
@@ -20,6 +21,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 450px;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top: 16px;
+    padding-bottom: 100px;
 }
 
 .header-hero-left h1 {
@@ -31,6 +37,7 @@ body {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .header-hero-right ul {
@@ -38,6 +45,28 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: end;
+    gap: 16px;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 200px;
+}
+
+.header-hero-left button {
+    margin-top: 12px;
+}
+
+button {
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 36px;
+    border-radius: 6px;
 }
 
 .fourth-big,
