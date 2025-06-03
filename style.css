@@ -159,7 +159,16 @@ button {
     font-weight: bold;
 }
 
-.fourth-big-left .gray {
+.fourth-big-left .gray,
+.footer {
     color: #e5e7eb;
     font-size: 12px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
 }
