@@ -133,3 +133,33 @@ button {
     text-align: end;
     margin-right: 24px;
 }
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+}
+
+.fourth-big {
+    width: 900px;
+    height: 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+}
+
+.fourth-big button {
+    border-style: solid;
+    border-color: white;
+}
+
+.fourth-big-left .call {
+    font-weight: bold;
+}
+
+.fourth-big-left .gray {
+    color: #e5e7eb;
+    font-size: 12px;
+}
